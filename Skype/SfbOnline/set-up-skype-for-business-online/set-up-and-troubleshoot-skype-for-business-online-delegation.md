@@ -92,11 +92,9 @@ To set up Skype for Business Online delegation, follow these steps:
     
 6. Select the **Calendar** menu, and then select **Editor (can read, create, and modify items)**.
     
-### For Mac clients - Lync
+### For Mac clients - Skype for Business
 
- **Call Forwarding tab**
-  
-- If the client doesn't have a **Call Forwarding** tab that has the **Edit my Delegate Members** link, and the delegator is located on a Mac computer, the delegator must sign in to a Windows-based computer in order to set up the delegation. This is because Mac clients can't make MAPI connections, and this is a requirement to establish Skype for Business delegation from Outlook.
+Mac clients delegation management works slightly differently, rather than through settings you simply add the desired delegate user to the delegate group on the boss client. Right click on a contact from the contact section and expand Groups, here you can assign a user to "My Delegates" group directly. This does not require either user to be enterprise voice enabled. 
     
 ### Verify success
 
